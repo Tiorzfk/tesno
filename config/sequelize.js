@@ -1,7 +1,7 @@
 var Sequelize = require('sequelize');
 
-var sequelize = new Sequelize('blog', 'root', '', {
-  host: 'localhost',
+var sequelize = new Sequelize('comradedb', 'b8bf14d452d4b5', 'b1476b57', {
+  host: 'ap-cdbr-azure-southeast-b.cloudapp.net',
   dialect: 'mysql',
 
   pool: {
